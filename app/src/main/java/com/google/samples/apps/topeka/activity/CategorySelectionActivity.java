@@ -93,6 +93,7 @@ public class CategorySelectionActivity extends AppCompatActivity {
         super.onResume();
         TextView scoreView = (TextView) findViewById(R.id.score);
         final int score = TopekaDatabaseHelper.getScore(this);
+
         scoreView.setText(getString(R.string.x_points, score));
     }
 

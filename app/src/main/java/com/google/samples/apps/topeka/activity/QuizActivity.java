@@ -408,10 +408,10 @@ public class QuizActivity extends AppCompatActivity {
         setContentView(R.layout.activity_quiz);
         //noinspection PrivateResource
         mIcon = (ImageView) findViewById(R.id.icon);
-        int resId = getResources().getIdentifier(IMAGE_CATEGORY + categoryId, DRAWABLE,
+        int resId = getResources().getIdentifier( categoryId, DRAWABLE,
                 getApplicationContext().getPackageName());
         mIcon.setImageResource(resId);
-        mIcon.setImageResource(resId);
+
         ViewCompat.animate(mIcon)
                 .scaleX(1)
                 .scaleY(1)

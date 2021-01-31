@@ -126,14 +126,13 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHo
     }
 
     private void setCategoryIcon(Category category, ImageView icon) {
-        final int categoryImageResource = mResources.getIdentifier(
-                ICON_CATEGORY + category.getId(), DRAWABLE, mPackageName);
+        final int categoryImageResource = mResources.getIdentifier(category.getId()+"1", DRAWABLE, mPackageName);
         final boolean solved = category.isSolved();
         if (solved) {
             Drawable solvedIcon = loadSolvedIcon(category, categoryImageResource);
             icon.setImageDrawable(solvedIcon);
         } else {
-            icon.setImageResource(categoryImageResource);
+                icon.setImageResource(categoryImageResource);
         }
     }
 

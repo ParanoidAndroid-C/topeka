@@ -1,0 +1,75 @@
+{
+    "Name": "Queen Live",
+    "id": "queen",
+    "quizzes": [
+        {
+            "type": "picker",
+            "question": "In which year was A Night At The Opera (Deluxe Remastered Version) released?",
+            "min": 1965,
+            "max": 1985,
+            "answer": 1975
+        },
+        {
+            "type": "picker",
+            "question": "In which year was Jazz (Deluxe Remastered Version) released?",
+            "min": 1968,
+            "max": 1988,
+            "answer": 1978
+        },
+        {
+            "type": "picker",
+            "question": "In which year was The Game (Deluxe Remastered Version) released?",
+            "min": 1970,
+            "max": 1990,
+            "answer": 1980
+        },
+        {
+            "type": "four-quarter",
+            "question": "But now I've gone and thrown it all away",
+            "options": [
+                "Open your eyes, look up to the skies and see",
+                "Put a gun against his head, pulled my trigger, now he's dead",
+                "Any way the wind blows doesn't really matter to me, to me",
+                "[Chorus]"
+            ],
+            "answer": [
+                1
+            ]
+        },
+        {
+            "type": "four-quarter",
+            "question": "Open your eyes, look up to the skies and see",
+            "options": [
+                "Put a gun against his head, pulled my trigger, now he's dead",
+                "Any way the wind blows doesn't really matter to me, to me",
+                "[Chorus]",
+                "Steve walks warily down the street"
+            ],
+            "answer": [
+                1
+            ]
+        },
+        {
+            "type": "four-quarter",
+            "question": "Put a gun against his head, pulled my trigger, now he's dead",
+            "options": [
+                "Any way the wind blows doesn't really matter to me, to me",
+                "[Chorus]",
+                "Steve walks warily down the street",
+                "Out of the doorway the bullets rip"
+            ],
+            "answer": [
+                1
+            ]
+        }
+    ],
+    "scores": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "solved": "false"
+}
